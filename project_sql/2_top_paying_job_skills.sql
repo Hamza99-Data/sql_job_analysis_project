@@ -1,4 +1,5 @@
---What are the top paying jobs associated with Data Analyst?
+
+--what are the skills associated with the top 10 highest paying data engineers job?
 WITH top_paying_jobs AS (
     SELECT 
         job_id,

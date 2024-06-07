@@ -1,9 +1,4 @@
-/*
--What are the top-paying data analyst jobs?
-   identify the top 10 highest paying data Engineer jobs tht are avalaible remotely and the companies associated with them
-   focus on job postings with salaries, remove null values 
-   Why? to hightlight most rewarding opportunities for data analyst, offering insight into 
-*/
+--what are the top 10 highest paying data engineers job?
 
 SELECT 
     job_id,

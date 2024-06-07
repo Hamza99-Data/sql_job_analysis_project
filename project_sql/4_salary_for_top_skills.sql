@@ -1,5 +1,5 @@
 
---what are the avg salary of the skills 
+--what are the average salary of the top 10 data engineer skills 
 SELECT
     skills,
     ROUND(AVG(jpf.salary_year_avg), 2) AS avg_sal
