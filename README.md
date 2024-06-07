@@ -237,7 +237,7 @@ This project presented a superb opportunity to learn new commands, troubleshooti
 
 # Conclusions
 The following conclusions can be drawn based on the analysis presented in this document:
-1. **Top rewarding data engineer jobs:**  The 10 highest paying data engineers jobs are closely realted with the highest at USD325,000.
+1. **Top rewarding data engineer jobs:**  The 10 highest paying data engineers jobs are closely related with the highest at USD325,000.
 2. ***Top paying job skill:*** Python and Spark led the list, indicating they are critical skills for earning a high salary in the data market.
 3. ***Most In-demand skills:*** SQL is the most in-demand skill for data engineers, making it a must have to succeed in the data market.
 4. ***Kills with highest salaries:*** specialized skills such as assembly and numpy are the most commanding skills in terms of higher rewards.
