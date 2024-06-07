@@ -104,27 +104,28 @@ ORDER BY
 This query below retrieve the top 5 most skills sought after in jobs relating to data engineers.
 
 ```sql
-    SELECT
-        skills,
-        COUNT(SJD.skill_id) AS skills_count
-    FROM
-        job_postings_fact jpf
-    INNER JOIN skills_job_dim sjd ON jpf.job_id = sjd.job_id
-    INNER JOIN skills_dim sd ON sjd.skill_id =sd.skill_id
-    WHERE 
-        jpf.job_title_short ='Data Engineer' AND 
-        jpf.job_location ='New York, NY' AND 
-        jpf.job_work_from_home ='false'
-    GROUP BY
-        skills
-    ORDER BY 
-        skills_count DESC
-    LIMIT 5;
+  SELECT
+    skills,
+    COUNT(SJD.skill_id) AS skills_count
+FROM
+    job_postings_fact jpf
+INNER JOIN skills_job_dim sjd ON jpf.job_id = sjd.job_id
+INNER JOIN skills_dim sd ON sjd.skill_id =sd.skill_id
+WHERE 
+    jpf.job_title_short ='Data Engineer' AND 
+    jpf.job_work_from_home ='true'
+GROUP BY
+    skills
+ORDER BY 
+    skills_count DESC
+LIMIT 5;
+
 ```
 
 #### Here are a breakdown of the findings:
-*  **Python** tops the list echoeing the importance of programming langauges in data engineering, particularly the python language.
-*  **SQL** closely follows python indicating the need to acquire foundational skills in toring and processing information in a relational database.
+*  **SQL** tops the list with a count of 144,213 indicating the need to acquire foundational skills in storing and processing information in a relational database.
+*  **Python** follows sql with a count of 13,893 echoeing the importance of programming langauges in data engineering, particularly the python language.
+
 * **Cloud service::** like **aws** and **azure** making it to the list indicate the growing demands for skills in cloud computing for data management.
 Table ---- represent the top 5 in-demand skills for data engineers.
 
@@ -133,11 +134,11 @@ Table ---- represent the top 5 in-demand skills for data engineers.
 
 | skill s|skills_count|
 | --- | --- |
-| python    |1023    |
-| sql       |956     |
-| aws       |638     |
-| spark     |491     |
-|azure      |409     |
+| sql       |114213    |
+|python     |13893    |
+| aws       |8570    |
+| azure    |6997    |
+|spark     |6612     |
 
 ### 4. The skills asscociated with higher salaries
 Below query identifies the top 10 skills with the highest average salaries.
