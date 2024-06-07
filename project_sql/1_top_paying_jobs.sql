@@ -8,10 +8,8 @@
 SELECT 
     job_id,
     job_title_short,
-    name,
-    job_location,
+    name AS company_name,
     job_schedule_type,
-    job_posted_date,
     salary_year_avg 
 FROM
     job_postings_fact
