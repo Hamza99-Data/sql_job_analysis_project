@@ -14,7 +14,7 @@ with a stoing desire to secure data engineer role that offers higher remuneratio
 * To find the skills associated with higher salaries.
 * to identify the most optimal skills to focus on as a data engineer.
 
-# Tools used in this project.
+# Tools used in this project
 To enable me achieve the objectives for this project, I employed the use of these tools:
 
 * ***SQL**: The main tool of my analysis, presenting me with all the tools to query and retrieve all the vital details form the database.
@@ -27,7 +27,7 @@ To enable me achieve the objectives for this project, I employed the use of thes
 
 # The analysis
 Each objective of this project require a specific query to investigate the data analystics job markets. In the next couple of lines, I present each objective along with the sql queries I used and with an alnalysis of the result sets.
- ### 1. The top 10 highest paying data engineer jobs.
+ ### 1. The top 10 highest paying data engineer jobs
  To find out the top 10 highest paying data engineer jobs, I filtered out data engineers jobs by average yearly salary and the job locations with a focus on remote jobs. The query below produced the desired results:
 
 ```sql
@@ -56,7 +56,7 @@ LIMIT 10;
 2. **Mostly Full-time jobs**: all the top 10 highest paying jobs are scheduled as full time jobs,  given me an insghts on the need to put in appropriate time management skills.
 3. **Timeframe of job postings:** 7 out of the top 10 paying jobs were posted in first quarter of 2023, indicating that much efforts should be pu in place during the first quarter of the year in order to secure such jobs.
 
-### 2. Top skills for the top paying jobs.
+### 2. Top skills for the top paying jobs
 To discover the important skills associated with the top paying jobs, job postings and skills tables were joined together, providing the opportunity to understand what skills are of high value to employers.
  below is the sql query for the above task:
 
@@ -99,7 +99,7 @@ ORDER BY
 
 * **Hadoop and Kafta** also made it to the list with a count of 3 each. other notable skills include **scala**, n**umpy**, **panda**s, and **pyapark**, all having a count of 2.
 
-### 3. The most in-demand skills for data engineers.
+### 3. The most in-demand skills for data engineers
 
 This query below retrieve the top 5 most skills sought after in jobs relating to data engineers.
 
@@ -139,7 +139,7 @@ Table ---- represent the top 5 in-demand skills for data engineers.
 | spark     |491     |
 |azure      |409     |
 
-### 4. The skills asscociated with higher salaries.
+### 4. The skills asscociated with higher salaries
 Below query identifies the top 10 skills with the highest average salaries.
 
 ```sql
@@ -234,7 +234,7 @@ This project presented a superb opportunity to learn new commands, troubleshooti
 * **Documentation**: mastered the art of documenting and presenting my project work in a more professional manner.
 
 
-# Conclusions.
+# Conclusions
 The following conclusions can be drawn based on the analysis presented in this document:
 1. **Top rewarding data engineer jobs:**  The 10 highest paying data engineers jobs are closely realted with the highest at USD325,000.
 2. ***Top paying job skill:*** Python and Spark led the list, indicating they are critical skills for earning a high salary in the data market.
